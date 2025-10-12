@@ -46,7 +46,7 @@ header, footer {
 
 #navbar {
   width: 100%;
-  padding: 0 5%;
+  padding: 0 10%;
   margin-bottom: 10px;
 }
 #navbar ul {
@@ -103,7 +103,9 @@ iframe[src*="youtube.com"] {
   margin: 1rem auto;
 }
 
-#letterboxd-diary
+#letterboxd-diary {
+	  max-width: 500px;
+}
 	.boxd-container {
 	  max-width: 500px;
 	  margin: 2rem auto;
