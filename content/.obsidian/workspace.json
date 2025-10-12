@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysterious/collections.md",
+                "file": "posts/post-7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "collections"
+              "title": "post-7"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fff",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysterious/collections.md",
+                "file": "posts/post-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for collections"
+              "title": "Backlinks for post-7"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mysterious/collections.md",
+                "file": "posts/post-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from collections"
+              "title": "Outgoing links from post-7"
             }
           },
           {
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mysterious/collections.md",
+                "file": "posts/post-7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of collections"
+              "title": "Outline of post-7"
             }
           }
         ]
@@ -169,6 +170,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "35ed3c3cbbe6e327",
-  "lastOpenFiles": []
+  "active": "505eebde98ae6a30",
+  "lastOpenFiles": [
+    "mysterious/collections.md"
+  ]
 }
