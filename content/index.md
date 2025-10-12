@@ -7,53 +7,6 @@ date:
 ---
 {% block Head %}
 <style>
-	.boxd-container {
-	
-	  max-width: 600px;
-	  margin: 2rem auto;
-	  padding: 1rem;
-	  font-family: Arial;
-	}
-	
-	.boxd-entry {
-	  display: flex;
-	  align-items: flex-start;
-	  margin-bottom: 0rem;
-	  gap: 1rem;
-	  text-align: left;
-	}
-	
-	.boxd-entry img {
-	  width: 100px;
-	  border-radius: 4px;
-	  position: relative;
-	  top: -14px;
-	}
-	
-	.boxd-content {
-	  flex: 1;
-	}
-	
-	.boxd-content a {
-	  font-weight: 600;
-	  color: #222;
-	  text-decoration: none;
-	}
-	
-	.boxd-content a:hover {
-	  text-decoration: underline;
-	}
-	
-	.boxd-date {
-	  font-size: 0.85rem;
-	  color: #777;
-	  margin-top: 0.25rem;
-	}
-	
-	.boxd-review {
-	  margin-top: -0.6rem;
-	  font-size: 0.85rem;
-	}
 </style>
 {% endblock%}
 
@@ -68,10 +21,10 @@ i still don't know what to write here.
 		<a href="{{ post.data.permalink }}">{{ post.data.title }}</a><br>
 	{% endfor %}
 </div>
-<a href="/archives.html">...</a>
+<a href="/archive.html">...</a>
 
 ## recently played
-<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#000&username=ysaasy&swapPositions=1&delimiter=-&underline=0" frameborder="0" height="20" title="Last.Fm Status"></iframe>
+<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#c1cee2&username=ysaasy&swapPositions=1&delimiter=-&underline=0" frameborder="0" height="20" title="Last.Fm Status"></iframe>
 
 <div id="letterboxd-diary" class="boxd-container" width="80%">
 

@@ -16,12 +16,14 @@
   </head>
   <body class="{{ bodyClass }}">
     <header>
-    <nav>
-      <a href="/index.html">home</a> |
-      <a href="/archive.html">archive</a> |
-      <a href="/about.html">about</a> |
-      <a href="rss.xml">rss</a>
-    </nav>
+    <nav id="navbar">
+          <ul>
+            <li><a href="/index.html">home</a></li>
+            <li><a href="/archive.html">archive</a></li>
+            <li><a href="/about.html">about</a></li>
+            <li><a href="rss.xml">rss</a></li>
+          </ul>
+        </nav>
     </header>
     <main>
       {{ content | safe }}

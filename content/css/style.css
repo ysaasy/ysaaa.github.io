@@ -2,19 +2,39 @@
 html, body { height: 100%; margin: 0; padding: 0; }
 
 /* page base */
-body {
+/* body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: center;
   max-width: 500px;       /* makes the page boxed in the middle */
-  margin: 2rem auto;      /* centers the whole layout */
-  padding: 0;
+  /* margin: 2rem auto;      /* centers the whole layout */
+  /* padding: 0;
+/* } */
+
+body {
+  background-color: #1a1c1f;
+  background-image: url("../images/bg.gif");
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: #c1cee2;
+  line-height: 1.6em;
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto;
 }
 
-body.dark-mode {
-      background-color: #121212;
-      color: #ffffff;
-    }
+h1, h2, h3, h4 {
+  color: #d6b671;
+}
+
+a, a:visited {
+  color: #ffae00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 
 /* header & footer boxed */
 header, footer {
@@ -22,6 +42,38 @@ header, footer {
   text-align: center;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
+}
+
+#navbar {
+  width: 100%;
+  padding: 0 5%;
+  margin-bottom: 10px;
+}
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+#navbar li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-right: 1.5em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+#navbar li a, #navbar li a:visited {
+  color: #c1cee2;
+  text-decoration: none;
+  padding: 3px;
+}
+
+#navbar li a:hover {
+  background-color: #ffae00;
+  color: #1a1c1f;
+  text-decoration: none;
 }
 
 /* main content area */
@@ -50,3 +102,51 @@ iframe[src*="youtube.com"] {
   border: none;
   margin: 1rem auto;
 }
+
+#letterboxd-diary
+	.boxd-container {
+	  max-width: 600px;
+	  margin: 2rem auto;
+	  padding: 1rem;
+	  font-family: Arial;
+	}
+	
+	.boxd-entry {
+	  display: flex;
+	  align-items: flex-start;
+	  margin-bottom: 0rem;
+	  gap: 1rem;
+	  text-align: left;
+	}
+	
+	.boxd-entry img {
+	  width: 100px;
+	  border-radius: 4px;
+	  position: relative;
+	  top: -14px;
+	}
+	
+	.boxd-content {
+	  flex: 1;
+	}
+	
+	.boxd-content a {
+	  font-weight: 600;
+	  color: #c1cee2;
+	  text-decoration: none;
+	}
+	
+	.boxd-content a:hover {
+	  text-decoration: underline;
+	}
+	
+	.boxd-date {
+	  font-size: 0.85rem;
+	  color: #7f8794;
+	  margin-top: 0.25rem;
+	}
+	
+	.boxd-review {
+	  margin-top: -0.6rem;
+	  font-size: 0.85rem;
+	}
