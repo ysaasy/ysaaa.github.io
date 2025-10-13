@@ -3,11 +3,32 @@
   <title>the page</title>
   <subtitle>this is the description...</subtitle>
   <link href="https://ysaaa.neocities.org/rss.xml" rel="self"/>
-  <updated>2025-10-12T00:00:00Z</updated>
+  <updated>2025-10-13T00:00:00Z</updated>
   <id>https://ysaaa.neocities.org/</id>
   <author>
     <name>Ysa</name>
   </author>
+  <entry>
+    <title>post #8</title>
+    <link href="https://ysaaa.neocities.org/posts/post-8.html"/>
+    <updated>2025-10-13T00:00:00Z</updated>
+    <id>https://ysaaa.neocities.org/posts/post-8.html</id>
+    <content type="html">&lt;p&gt;i think i need to automate the obsidian-11ty-github/neocities workflow cuz i&#39;m getting lazy.&lt;/p&gt;
+&lt;h3&gt;today&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;nothing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;next time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;automate the stuff so i can just open obsidian to write stuff and everything&lt;/li&gt;
+&lt;li&gt;and only open vscodium when i want to update css or widgets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;inspo: &lt;a href=&quot;https://hackernoon.com/my-obsidian-hugo-blogging-setup-a-smooth-blogging-workflow&quot;&gt;My Obsidian + Hugo Blogging Setup: A Smooth Blogging Workflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;also i&#39;ve been interested in growing a digital garden. i first encountered it in iamrobin&#39;s very beautiful &lt;a href=&quot;https://www.iamrob.in/garden&quot;&gt;garden&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;okay i just opened his page again and found out about &lt;a href=&quot;literal.club&quot;&gt;literalclub&lt;/a&gt;. the one i&#39;m using now is &lt;a href=&quot;https://thestorygraph.com&quot;&gt;storygraph&lt;/a&gt; and as much as i love it, it doesn&#39;t let us make a widget for website (at least as of now). so i&#39;ve been looking for something like it, but i don&#39;t want goodreads since it&#39;s a bit clunky for me.&lt;/p&gt;
+&lt;p&gt;also, back to iamrobin&#39;s &lt;a href=&quot;https://www.iamrob.in&quot;&gt;page&lt;/a&gt;... it&#39;s not only so pretty but also interesting: with the postcards, bookmarks, and everything. okay maybe i&#39;m gonna make his page my #1 source of inspiration.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>post #7</title>
     <link href="https://ysaaa.neocities.org/posts/post-7.html"/>
