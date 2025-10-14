@@ -4,7 +4,7 @@ const parser = new Parser();
 
 (async () => {
   const feed = await parser.parseURL("https://letterboxd.com/sapphia/rss/");
-  const entries = feed.items.slice(0, 5).map(item => {
+  const entries = feed.items.slice(0, 3).map(item => {
     const posterMatch = item.content.match(/<img[^>]+src="([^"]+)"/);
     const reviewMatch = item.content.replace(/<img[^>]+>/g, '').trim();
     return {
