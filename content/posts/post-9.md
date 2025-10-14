@@ -7,4 +7,4 @@ date: 2025-10-14
 tags:
   - journal
 ---
-staying at home and learning [astro](https://docs.astro.build/en/tutorial/)
+staying at home and learning [astro](https://docs.astro.build/en/tutorial/). so far it's going okay....
