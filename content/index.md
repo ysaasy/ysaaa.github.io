@@ -28,6 +28,9 @@ i still don't know what to write here.
 
 <div id="letterboxd-diary" class="boxd-container" width="80%">
 
+<div id="literal-widget" handle="ysaasy" status="FINISHED" layout="row"></div>
+<script src="https://literal.club/js/widget.js"></script>
+
 <script>
 fetch("/boxd.json")
   .then(res => res.json())
