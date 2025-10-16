@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/css");
 
   // This defines which files will be copied
-  eleventyConfig.setTemplateFormats(["md", "html", "njk", "txt", "js", "css", "xml", "json"]);
+  eleventyConfig.setTemplateFormats(["md", "html", "njk", "txt", "js", "css", "xml", "json", "ico"]);
 
   // Adds Next & Previous links to the bottom of our blog posts
   eleventyConfig.addCollection("posts", function(collection) {
