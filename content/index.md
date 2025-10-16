@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 permalink: index.html
-title: ""
+title: "home"
 nesting: "./"
 date: 
 ---
@@ -12,7 +12,7 @@ date:
 
 # the page
 
-i still don't know what to write here.
+i still don't know what to write here
 
 ## recent entries
 <div id="recentpostlistdiv">
@@ -23,45 +23,30 @@ i still don't know what to write here.
 </div>
 <a href="/archive.html">...</a>
 
-## recently played
-<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#c1cee2&username=ysaasy&swapPositions=1&delimiter=-&underline=0" frameborder="0" height="20" title="Last.Fm Status"></iframe>
 
-<div id="letterboxd-diary" class="boxd-container" width="80%">
-
-<div id="literal-widget" handle="ysaasy" status="FINISHED" layout="row"></div>
-<script src="https://literal.club/js/widget.js"></script>
+<div sg-current id="storygraph-diary" class="sg-container"></div>
 
 <script>
-fetch("/boxd.json")
+fetch("/storygraph-current.json")
   .then(res => res.json())
   .then(entries => {
-    const container = document.getElementById("letterboxd-diary");
-    let html = "<h2>recently watched</h2>";
-
+    const container = document.getElementById("storygraph-diary");
+    let html = "<h2>currently reading</h2>";
+    
     entries.forEach(entry => {
-      const date = new Date(entry.date);
-      const formattedDate = date.toLocaleDateString(undefined, {
-        year: "numeric",
-        month: "short",
-        day: "numeric"
-      });
-
+      
       html += `
-        <div class="boxd-entry">
-          ${entry.poster ? `<img src="${entry.poster}" alt="Poster for ${entry.title}">` : ""}
-          <div class="boxd-content">
-            <a href="${entry.link}" target="_blank">${entry.title}</a>
-            <div class="boxd-date">${formattedDate}</div>
-            ${entry.review ? `<div class="boxd-review">${entry.review}</div>` : ""}
+        <div class="sg-entry">
+          <div class="sg-content">
+            <a href="https://app.thestorygraph.com/books/${entry.book_id}" target="_blank">${entry.title}</a>
           </div>
         </div>
       `;
     });
-
     container.innerHTML = html;
   })
   .catch(err => {
-    document.getElementById("letterboxd-diary").innerText = "Error loading diary.";
+    document.getElementById("storygraph-diary").innerText = "Error loading books.";
     console.error(err);
   });
 </script>

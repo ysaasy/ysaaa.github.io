@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title></title>
+    <title>home</title>
     <script src="./main.js"></script>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:type" content="">
-    <meta property="og:title" content="">
+    <meta property="og:title" content="home">
     <meta property="og:url" content="https://ysaaa.neocities.org/index.html">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://ysaaa.neocities.org/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for the page">
@@ -19,6 +19,7 @@
     <nav id="navbar">
           <ul>
             <li><a href="/index.html">home</a></li>
+            <li><a href="/media.html">media</a></li>
             <li><a href="/archive.html">archive</a></li>
             <li><a href="/about.html">about</a></li>
             <li><a href="rss.xml">rss</a></li>
@@ -29,50 +30,36 @@
       <style>
 </style>
 <h1>the page</h1>
-<p>i still don't know what to write here.</p>
+<p>i still don't know what to write here</p>
 <h2>recent entries</h2>
 <div id="recentpostlistdiv">
-  <a href="posts/post-9.html">post #9</a><br>
+  <a href="posts/post-10.html">post #10</a><br>
+	<a href="posts/post-9.html">post #9</a><br>
 	<a href="posts/post-8.html">post #8</a><br>
-	<a href="posts/post-7.html">post #7</a><br>
 </div>
 <a href="/archive.html">...</a>
-<h2>recently played</h2>
-<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#c1cee2&username=ysaasy&swapPositions=1&delimiter=-&underline=0" frameborder="0" height="20" title="Last.Fm Status"></iframe>
-<div id="letterboxd-diary" class="boxd-container" width="80%">
-<div id="literal-widget" handle="ysaasy" status="FINISHED" layout="row"></div>
-<script src="https://literal.club/js/widget.js"></script>
+<div sg-current id="storygraph-diary" class="sg-container"></div>
 <script>
-fetch("/boxd.json")
+fetch("/storygraph-current.json")
   .then(res => res.json())
   .then(entries => {
-    const container = document.getElementById("letterboxd-diary");
-    let html = "<h2>recently watched</h2>";
-
+    const container = document.getElementById("storygraph-diary");
+    let html = "<h2>currently reading</h2>";
+    
     entries.forEach(entry => {
-      const date = new Date(entry.date);
-      const formattedDate = date.toLocaleDateString(undefined, {
-        year: "numeric",
-        month: "short",
-        day: "numeric"
-      });
-
+      
       html += `
-        <div class="boxd-entry">
-          ${entry.poster ? `<img src="${entry.poster}" alt="Poster for ${entry.title}">` : ""}
-          <div class="boxd-content">
-            <a href="${entry.link}" target="_blank">${entry.title}</a>
-            <div class="boxd-date">${formattedDate}</div>
-            ${entry.review ? `<div class="boxd-review">${entry.review}</div>` : ""}
+        <div class="sg-entry">
+          <div class="sg-content">
+            <a href="https://app.thestorygraph.com/books/${entry.book_id}" target="_blank">${entry.title}</a>
           </div>
         </div>
       `;
     });
-
     container.innerHTML = html;
   })
   .catch(err => {
-    document.getElementById("letterboxd-diary").innerText = "Error loading diary.";
+    document.getElementById("storygraph-diary").innerText = "Error loading books.";
     console.error(err);
   });
 </script>

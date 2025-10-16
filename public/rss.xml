@@ -3,11 +3,41 @@
   <title>the page</title>
   <subtitle>this is the description...</subtitle>
   <link href="https://ysaaa.neocities.org/rss.xml" rel="self"/>
-  <updated>2025-10-14T00:00:00Z</updated>
+  <updated>2025-10-16T00:00:00Z</updated>
   <id>https://ysaaa.neocities.org/</id>
   <author>
     <name>Ysa</name>
   </author>
+  <entry>
+    <title>post #10</title>
+    <link href="https://ysaaa.neocities.org/posts/post-10.html"/>
+    <updated>2025-10-16T00:00:00Z</updated>
+    <id>https://ysaaa.neocities.org/posts/post-10.html</id>
+    <content type="html">&lt;p&gt;finally continued my thesis this whole afternoon. also told my thesis supervisor i&#39;m gonna meet him on monday.&lt;/p&gt;
+&lt;h3&gt;today&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;creating a storygraph widget for current reading on &lt;a href=&quot;/index.html&quot;&gt;home&lt;/a&gt; and 5 recently-read books on &lt;a href=&quot;/media.html&quot;&gt;media&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;oh! yeah. creating a new sub-page &lt;a href=&quot;/media.html&quot;&gt;media&lt;/a&gt; for: recently listened song from &lt;a href=&quot;https://www.last.fm&quot;&gt;last.fm&lt;/a&gt;, recently read books from &lt;a href=&quot;https://app.thestorygraph.com&quot;&gt;storygraph&lt;/a&gt;, and recently watched films/series from &lt;a href=&quot;https://letterboxd.com&quot;&gt;letterboxd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;and also clearing stuff up from the &lt;a href=&quot;/index.html&quot;&gt;home&lt;/a&gt;, so it&#39;s not cluttered&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;next time&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;i think building a digital garden framework is an urgent matter, since i can&#39;t keep on writing everything in this format here. also i want to keep track of cool stuff and resources i found.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;storygraph api for the widget: &lt;a href=&quot;https://github.com/ym496/storygraph-api/tree/main&quot;&gt;ym496/storygraph-api&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;what i found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.emgoto.com&quot;&gt;Emma Goto&lt;/a&gt;: very cute and clean and interesting personal page for inspiration; discovered her from this &lt;a href=&quot;https://www.emgoto.com/obsidian-digital-garden/&quot;&gt;post&lt;/a&gt; on obsidian digital garden&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://potato.cheap&quot;&gt;The &amp;quot;Cheap&amp;quot; Web&lt;/a&gt;: The &amp;quot;cheap&amp;quot; web is a solarpunk philosophy of web design.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wwinks.com&quot;&gt;Westley Winks&lt;/a&gt;: also a very cool personal page&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://herman.bearblog.dev/piracy-kills/&quot;&gt;PIRACYKILLS&lt;/a&gt;: this blog post by, apparently, the creator of a very popular sketching tool &lt;a href=&quot;https://justsketch.me/&quot;&gt;JustSketchMe&lt;/a&gt; that i&#39;m familiar with. very very random&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;documentation&lt;/h3&gt;
+&lt;img src=&quot;https://files.catbox.moe/32rsbh.png&quot;&gt;</content>
+  </entry>
   <entry>
     <title>post #9</title>
     <link href="https://ysaaa.neocities.org/posts/post-9.html"/>

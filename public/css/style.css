@@ -1,5 +1,5 @@
 * { box-sizing: border-box; }
-html, body { height: 100%; margin: 0; padding: 0; }
+html, body { margin: 0; padding: 0; }
 
 /* page base */
 /* body {
@@ -150,3 +150,34 @@ iframe[src*="youtube.com"] {
 	  margin-top: -0.6rem;
 	  font-size: 0.85rem;
 	}
+
+
+#storygraph-diary {
+  max-width: 500px;
+}
+.sg-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+.sg-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  text-align: center;
+}
+.sg-entry:last-child {
+  border-bottom: none;
+}
+.sg-content {
+  flex: 1;
+}
+.sg-content a {
+  color: #c1cee2;
+  text-decoration: none;
+}
+.sg-content a:hover {
+  text-decoration: underline;
+}
