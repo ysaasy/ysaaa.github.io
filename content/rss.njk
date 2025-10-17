@@ -14,7 +14,7 @@
 }
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="css/rss.xsl" type="text/xsl"?>
+<rss version="2.0">
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
   <title>{{ metadata.title }}</title>
   <subtitle>{{ metadata.subtitle }}</subtitle>
@@ -35,3 +35,4 @@
   </entry>
   {%- endfor %}
 </feed>
+</rss>

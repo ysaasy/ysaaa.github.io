@@ -43,6 +43,7 @@ module.exports = function (eleventyConfig) {
       'yyyy-LL-dd'
     );
   });
+
 //  eleventyConfig.addTransform("htmlmin", function (content) {
 //    if ((this.page.outputPath || "").endsWith(".html")) {
 //      let minified = htmlmin.minify(content, {
