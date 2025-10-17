@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="css/rss.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://ysaaa.neocities.org/">
   <title>the page</title>
-  <subtitle>this is the description...</subtitle>
+  <subtitle>my page</subtitle>
   <link href="https://ysaaa.neocities.org/rss.xml" rel="self"/>
   <updated>2025-10-16T00:00:00Z</updated>
   <id>https://ysaaa.neocities.org/</id>

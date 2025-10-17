@@ -5,11 +5,18 @@ title: "media"
 nesting: "./"
 date: 
 ---
+# {{ title }}
+everything i've been consuming lately
+<br><br>
+
 ## recently played
-<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#c1cee2&username=ysaasy&swapPositions=1&delimiter=-&underline=0" frameborder="0" height="20" title="Last.Fm Status"></iframe>
+<iframe src="https://petrapixel.neocities.org/widgets/lastfm?center=1&marquee=1&font-family=Arial&font-size=16px&color=#c1cee2&username=ysaasy&swapPositions=1&delimiter=-&underline=0&" height="40" frameborder="0" title="Last.Fm Status"></iframe>
 
-<div sg-recent id="storygraph-diary" class="sg-container"></div>
+<!-- recent 5 reads -->
+## recently read
+<div id="storygraph-diary" class="sg-container"></div>
 
+## recently watched
 <div id="letterboxd-diary" class="boxd-container"></div>
 
 <script>
@@ -17,7 +24,7 @@ fetch("/boxd.json")
   .then(res => res.json())
   .then(entries => {
     const container = document.getElementById("letterboxd-diary");
-    let html = "<h2>recently watched</h2>";
+    let html = "";
 
     entries.forEach(entry => {
       const date = new Date(entry.date);
@@ -52,7 +59,7 @@ fetch("/storygraph-recent.json")
   .then(res => res.json())
   .then(entries => {
     const container = document.getElementById("storygraph-diary");
-    let html = "<h2>recently read</h2>";
+    let html = "";
     
     entries.forEach(entry => {
       

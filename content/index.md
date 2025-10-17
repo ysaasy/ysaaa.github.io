@@ -5,13 +5,7 @@ title: "home"
 nesting: "./"
 date: 
 ---
-{% block Head %}
-<style>
-</style>
-{% endblock%}
-
 # the page
-
 i still don't know what to write here
 
 ## recent entries
@@ -23,15 +17,15 @@ i still don't know what to write here
 </div>
 <a href="/archive.html">...</a>
 
-
-<div sg-current id="storygraph-diary" class="sg-container"></div>
+## currently reading
+<div id="storygraph-diary" class="sg-container"></div>
 
 <script>
 fetch("/storygraph-current.json")
   .then(res => res.json())
   .then(entries => {
     const container = document.getElementById("storygraph-diary");
-    let html = "<h2>currently reading</h2>";
+    let html = "";
     
     entries.forEach(entry => {
       
