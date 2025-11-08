@@ -166,15 +166,7 @@ iframe[src*="youtube.com"] {
   text-decoration: underline;
 }
 
-iframe [name="rssfeed_frame"] {
-width: 260px;
-height: 300px;
-border-top-width: 0px;
-border-right-width: 0px;
-border-bottom-width: 0px;
-border-left-width: 0px;}
-
-body[onload="InitFeed();"]{margin: 0;padding:0}
+body[src*="feed.surfing-waves.com"]{margin: 0;padding:0}
 
 .feed-container{line-height: 1.6em;text-align:left;font-size:12px;font-family:Helvetica,Arial,Sans-serif;border:1px solid #c1cee2}
 .feed-container .header{display:none;}
