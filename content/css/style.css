@@ -3,7 +3,6 @@
 body {
   background-color: #1a1c1f;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
   color: #c1cee2;
   line-height: 1.6em;
   text-align: center;
@@ -167,7 +166,7 @@ iframe[src*="youtube.com"] {
   text-decoration: underline;
 }
 
-.feed-container{margin: 0; line-height: 0; padding: 0;text-align:left;font-size:12px;font-family:Helvetica,Arial,Sans-serif;border:1px solid #c1cee2}
+.feed-container{margin: 0; line-height: 1em; padding: 2;text-align:left;font-size:12px;font-family:Helvetica,Arial,Sans-serif;border:1px solid #c1cee2}
 .feed-container .header{display:none;}
 .feed-container .footer{display:none;}
 .feed-container .content{margin:0px;padding:0 3px;}
