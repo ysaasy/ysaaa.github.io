@@ -166,7 +166,7 @@ iframe[src*="youtube.com"] {
   text-decoration: underline;
 }
 
-body[src="InitFeed();"]{margin: 0;padding:0}
+body[onload="InitFeed();"]{margin: 0;padding:0}
 
 .feed-container{line-height: 1.6em;text-align:left;font-size:12px;font-family:Helvetica,Arial,Sans-serif;border:1px solid #c1cee2}
 .feed-container .header{display:none;}
